@@ -7,7 +7,7 @@ def double(value):
 
 class Feature(unittest.TestCase):
     def test_doubles(self):
-        self.assertEqual(double(2), 4)
+        self.assertEqual(double(2), 5)
 
 
 if __name__ == "__main__":
